@@ -1,0 +1,171 @@
+
+  body {
+    font-size: 15px;
+    background-color: rgb(155, 70, 155);
+  }
+
+  .aa
+  {
+      margin: 3%;
+  }
+  .text1{
+      position: absolute;
+      bottom: 7em;
+      margin-left: 5em;
+      color: black;
+      background-color: #ffc600;
+      width: fit-content;
+  }
+ 
+  h1{
+      font-size: 3em;
+      color: white;
+      text-align: center;
+  }
+
+  h1:hover{
+   color: blue;
+  }
+
+  h3{
+      color: rgb(14, 6, 6);
+  }
+  a#login{
+      
+      display: inline;
+      margin-left: 55em;
+      font-size: x-large;
+      color: white;
+  }
+
+  a#login:hover{
+    color: blue;
+  }
+ a#sign
+  {
+      display: inline;
+      font-size: x-large;
+      margin-left: 1em;
+      color: white;
+  }
+
+  a#sign:hover{
+    color: blue;
+  }
+  
+  h2{
+      font-size: 3em;
+  }
+
+  h2.text1:hover{
+  color: blue;
+  border-radius: 10px;
+  
+  }
+
+  img {
+    height: 35em;
+    width:60em;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-gap: 20px;
+  }
+  
+  .top {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+    "hero hero ct1"
+    "hero hero ct2"
+  }
+  
+  .hero {
+    grid-area: hero;
+    min-height: 300px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid black;
+  }
+  
+  a#demo:hover
+  {
+     border-radius: 20px;
+     color: blue;
+  }
+
+  .cta {
+    background: yellow;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .cta p {
+    margin: 0;
+  }
+  
+  .price {
+    font-size: 60px;
+    font-weight: 300;
+  }
+  
+  /* Navigation */
+  
+  .menu ul {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+
+  }
+  
+  .menu a {
+    background: yellow;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 5%;
+  }
+
+  .features {
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  
+  .feature {
+    background: white;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .1);
+  }
+  
+  .feature .icon {
+    font-size: 30px;
+  }
+  
+  .feature p {
+    color: black;
+    font-size: larger;
+  
+  }
+
+  p#veg{
+      font-size: 2em;
+  }
+  
+ 
